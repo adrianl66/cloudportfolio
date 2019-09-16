@@ -1,2 +1,2 @@
-# cloudportolio
-Portfolio for serverless code on aws
+# Adrian's Portfolio
+Portfolio for serverless code on AWS using ReactJS
