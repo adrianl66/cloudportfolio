@@ -1,4 +1,5 @@
 # Adrian's Portfolio
-Portfolio for serverless code on AWS using ReactJS
+Portfolio for serverless code
 
-Code stored on github
+## Technologies
+AWS, ReactJS
