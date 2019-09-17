@@ -1,9 +1,12 @@
 version: 0.1
 
 phases:
+  install:
+    runtime-versions:
+      nodejs: 12.x
   build:
     commands:
-      - echo Nothing to do yet
+      - node --version
 artifacts:
   files:
     - index.html
