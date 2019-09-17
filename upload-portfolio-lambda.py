@@ -12,7 +12,7 @@ portfolio_zip = StringIO.StringIO()
 build_bucket.download_fileobj('a3isolutionsBuild.zip', portfolio_zip)
 
 with zipfile.Zipfile(portfolio.zip) as myzip:
-    for nm in myzip.namelist();
+    for nm in myzip.namelist():
         obj = myzip.open(nm)
         portfolio_bucket.upload_fileobj(obj, nm)
         portfolio_bucket.Object(nm).Acl().pu(ACL='public-read')
