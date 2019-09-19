@@ -11,7 +11,7 @@ def lambda_handler(event, context):
 
     location = {
         "bucketName": 'a3isolutionsbuild',
-        "objectKey": 'a3isolutionsBuild.zip'
+        "objectKey": 'CodeBuild.zip'
     }
 
     try:
