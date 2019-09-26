@@ -4,10 +4,15 @@ phases:
   install:
     runtime-versions:
       nodejs: 10
+  pre-build:
+    commands:
+      - echo Starting Pre-build.....
+      - npm install
+      - npm test
+      - echo Completed Pre-build
   build:
     commands:
-      - echo Building
-      - npm install
+      - echo Starting Build
       - npm run webpack
 artifacts:
   files:
